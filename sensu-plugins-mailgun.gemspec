@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.version                = SensuPluginsMailgun::Version::VER_STRING
 
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
-  s.add_runtime_dependency 'json',              '1.8.3'
+  s.add_runtime_dependency 'json',              '1.8.5'
   s.add_runtime_dependency 'aws-sdk-core',      '~>2.1'
   s.add_runtime_dependency 'tz',                '0.0.1'
   s.add_runtime_dependency 'tzinfo',            '~> 1.2.2'
